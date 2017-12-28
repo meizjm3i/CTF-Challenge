@@ -1,5 +1,10 @@
-### HICTCON 2017 babyfirst-revenge-v2
+# HICTCON 2017 babyfirst-revenge-v2
 
+include: index.php
+
+tag:命令执行
+
+index.php:
 ```php
 <?php
     $sandbox = '/www/sandbox/' . md5("orange" . $_SERVER['REMOTE_ADDR']);

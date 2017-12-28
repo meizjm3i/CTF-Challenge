@@ -1,4 +1,9 @@
-###HITCON 2017 babyfirst-revenge
+# HITCON 2017 babyfirst-revenge
+include: index.php
+
+tag:命令执行
+
+index.php:
 
 ```php
 <?php

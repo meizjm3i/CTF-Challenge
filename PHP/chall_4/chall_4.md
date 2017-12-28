@@ -1,7 +1,9 @@
 # HITCONCTF 2015 babyfirst
 include : index.php
 
-index.php
+tag:命令执行
+
+index.php:
 ```php
 <?php
     highlight_file(__FILE__);

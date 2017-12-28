@@ -1,6 +1,9 @@
 # HITCONCTF 2015 giraffe's coffee
-include : index.php        index.tpl.html   config.php
-index.php 
+include : index.php  index.tpl.html   config.php
+
+tag:
+
+index.php: 
 ```php
 <?php 
     include "config.php";
