@@ -1,7 +1,37 @@
 # CTF-Challenges
 
-主要收集了一下我感觉比较好的题目，因为目前刚刚开始，所以还很不完善=_=
+PHP:
 
-题目主要以Web为主，每道题会附带源码，尽量找exp。
+> chall_1 : 命令执行绕过 
+> 
+> chall_2 : 命令执行绕过 
+> 
+> chall_3 : 文件上传 
+> 
+> chall_4 : 命令执行绕过 
+> 
+> chall_5 : 随机数预测 
+> 
+> chall_6 : 反序列化(Use After Free)(PHP 5.5.9-1ubuntu4.12)
+> 
+> chall_7 : SQL注入
+> 
+> chall_8 : SSRF
+> 
+> chall_9 : 条件竞争
+> 
 
-过几天再整理一下类型，整理个导航栏出来,over
+Python:
+
+> chall_1 : 沙盒绕过
+> 
+> chall_2 : 区块链双花攻击
+> 
+> chall_3 : 区块链智能合约安全
+> 
+
+Nodejs: 
+
+> chall_1 : SQL注入
+> 
+> chall_2 : 内存溢出
