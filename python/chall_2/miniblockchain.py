@@ -243,7 +243,6 @@ def homepage():
     utxo_info = 'All utxos: ' + json.dumps(utxos)
     blockchain_info = 'Blockchain Explorer: ' + json.dumps(session['blocks'])
     view_source_code_link = "<a href='source_code'>View source code</a>"
-    print session
     return announcement + ('<br /><br />\r\n\r\n'.join(
         [view_source_code_link , genesis_block_info , addr_info , balance_info , utxo_info , blockchain_info]))
 
@@ -294,6 +293,7 @@ DIFFICULTY = int('00000' + 'f' * 59 , 16)
 
 @app.route(url_prefix + '/create_transaction' , methods=['POST'])
 def create_tx_and_check_shop_balance():
+    print session
     init()
     try:
         block = json.loads(request.data)
@@ -303,6 +303,9 @@ def create_tx_and_check_shop_balance():
         return str(e)
 
     balance , utxos , tail = get_balance_of_all()
+    print balance
+    print shop_address
+    print balance[shop_address]
     if balance[shop_address] == 1000000:
         # when 1000000 DDCoins are received, the shop will give you a diamond
         session['your_diamonds'] += 1

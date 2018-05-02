@@ -35,3 +35,5 @@ Nodejs:
 > chall_1 : SQL注入
 > 
 > chall_2 : 内存溢出
+> 
+> chall_3 : sort函数特点（或者解方程
