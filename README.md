@@ -29,6 +29,9 @@ Python:
 > 
 > chall_3 : 区块链智能合约安全
 > 
+> chall_4 : AST绕过 
+>
+> chall_5 : Python继承链读取配置文件
 
 Nodejs: 
 
