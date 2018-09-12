@@ -37,3 +37,9 @@ Nodejs:
 > chall_2 : 内存溢出
 > 
 > chall_3 : sort函数特点（或者解方程
+> 
+> chall_4 : 原型链污染
+
+Javascript:
+
+> chall_1 : JS反混淆
